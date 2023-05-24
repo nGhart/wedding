@@ -1,0 +1,279 @@
+* {
+  font-family: 'Abril Fatface', cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 99.5vw;
+  min-height: 100vh;
+  position: relative;
+}
+/* Header */
+.header {
+  background-color: rgb(81, 171, 227);
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.header h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  width: 240px;
+  
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+a:active {
+  text-decoration: none;
+}
+/* Footer */
+.footer {
+  background-color: rgb(81, 171, 227);
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.credit {
+  font-size: 12px;
+  color: rgb(105, 111, 117);
+}
+.credit a, .dxnCredit a { 
+  color: rgb(105, 111, 117);
+}
+.navigBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nomargin {
+  padding: 0;
+  }
+  .navbutton {
+    margin: 0 20px;
+    border: none;
+    background-color: transparent;
+    padding: 20px;
+  }
+  
+  .navbutton:hover {
+    color: rgb(115, 116, 124);
+  }
+  .home {
+    width: 100%;
+    min-height: 77vh;
+    background-color: rgb(81, 171, 227);
+    background-image: url("./images/guest.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .guestSign h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #fff;
+  }
+  .guestSign small {
+    font-style: italic;
+    color: rgb(105, 111, 117);
+  }
+  .guestCover
+   {
+    min-height: 100%;
+    width: 70%;
+    padding: 20px;
+    background-color: rgba(81, 171, 227, 0.443);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .guestCover h4 {
+    color: rgb(255, 255, 255);
+  }
+  .guestCover span {
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+    color: peru;
+  }
+  .tableContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .table {
+    width: 200px;
+    height: 200px;
+    margin: 30px 20px;
+    background-color: rgb(174, 122, 44);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .table h1 {
+    color: black;
+  }
+  .nine {
+    animation: big 2s linear .7s infinite reverse;
+  }
+  @keyframes big {
+    0%,100% {
+      transform: scale(1, 1)
+    }
+    50% {
+      transform: scale(1.2, 1.2)
+    }
+  }
+  .tableButton {
+    margin: 0px 20px 30px;
+    color: rgb(250, 246, 246);
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    padding: 2px 5px;
+    background-color: rgb(81, 171, 227);
+  }
+/* rsvp */
+.rsvpCover {
+  width: 700px;
+  height: 80%;
+  padding: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: rgba(81, 171, 227, 0.443);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rsvpForm {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.plusOne {
+  margin-left: 50px; 
+}
+.signButton {
+  margin:  0 20px;
+  background-color: rgb(81, 171, 227);
+  width: 80px;
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+}
+/* Registry */
+.registryContain {
+  min-height: 70.2vh;
+  text-align: center;
+  position: relative;
+  background-image: url("./images/guest.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.App {
+  position: relative;
+}
+.registryContain a:hover {
+    text-decoration: underline;
+    color: rgb(54, 52, 221);; 
+  }
+/* Programme */
+.programme {
+  min-height: 100.2vh;
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+.one {
+  width: 80%;
+  height: 600px;
+  
+}
+.two {
+  width: 80%;
+  
+  height: 600px;
+}
+.programmeCredit {
+  margin-top: 20px;
+}
+/* Directions */
+.directions
+{
+  width: 100%;
+    background-color: rgb(81, 171, 227);
+   background-image: url("./images/guest.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover; 
+    min-height: 70.2vh;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.theMap {
+  height: 70.2vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+.dxnCredit {
+  font-size: 12px;
+  color: rgb(105, 111, 117);
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(105, 111, 117);
+}
+a:active {
+  text-decoration: none;
+}
+.tabled {
+    width: 100%;
+    min-height: 77vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .why {
+    margin-top: 80px;
+  }
+  .active {
+    color: pink;
+  }
